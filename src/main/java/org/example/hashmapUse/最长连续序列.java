@@ -1,10 +1,9 @@
 package org.example.hashmapUse;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class longestConsecutive {
+public class 最长连续序列 {
     public static void main(String[] args) {
         int[] nums = new int[] {100,4,200,1,3,2,5,6,7,8,9};
         int ans = longestConsecutive(nums);

@@ -1,7 +1,8 @@
-package org.example;
+package org.example.linkedList;
 
 
-public class getIntersectionNode {
+
+public class 相交链表 {
     public static class ListNode{
         int val;
         ListNode next;
@@ -10,7 +11,7 @@ public class getIntersectionNode {
             next = null;
         }
     }
-    public  static ListNode getIntersectionNode(ListNode headA,ListNode headB){
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB){
         int count = 0;
         ListNode big = headA;
         ListNode small = headB;

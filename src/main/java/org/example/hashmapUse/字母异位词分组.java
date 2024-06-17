@@ -2,7 +2,7 @@ package org.example.hashmapUse;
 
 import java.util.*;
 
-public class groupAnagrams {
+public class 字母异位词分组 {
     public static void main(String[] args) {
         String[] strs = new String[]{"eat","tea","tan","ate","nat","bat"};
         List<List<String>> ans = new ArrayList<>();

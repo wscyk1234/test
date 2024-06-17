@@ -3,7 +3,7 @@ package org.example.hashmapUse;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class twoSum {
+public class 两数之和 {
     public static void main(String[] args) {
         int[] nums = new int[] {2,7,11,15};
         int target = 26;

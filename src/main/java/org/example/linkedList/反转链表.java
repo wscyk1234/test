@@ -1,6 +1,6 @@
-package org.example;
+package org.example.linkedList;
 
-public class reverse {
+public class 反转链表 {
     public static class ListNode{
         int val;
         ListNode next;
